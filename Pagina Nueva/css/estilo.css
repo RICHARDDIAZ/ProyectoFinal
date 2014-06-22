@@ -1,0 +1,453 @@
+	*{
+	font-family: 'opens';
+	}
+
+		
+	body{
+
+		background: url(fondo.jpg);
+	}
+
+
+
+header h1{
+	font-weight: normal;
+	font-size: 50px;
+	margin: 0 15% 2px 15%;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	padding: 0.5%;
+	box-shadow: 0 0 15px rgba(255,255,255,0.1);
+	border-bottom: solid 1px rgba(226,220,220,0.2);
+	
+
+}
+
+header img{
+	padding: 0;
+	margin:0 15% 0 15%;
+	width: 70%;
+
+
+}
+
+.articulos{
+	position: fixed;
+	right: 0;
+	top: 0;
+	background: red;
+
+	box-shadow: 0 0 30px rgba(0,0,0,1);
+	background: rgb(53,53,53);
+	height: 100%;
+	width: 15%;
+}
+
+.articulos h2{
+	margin: 8% 0 16% 0;
+	color: white;
+	font-size: 30px;
+	border-top: solid 1px rgba(226,220,220,0.2);
+	border-bottom: solid 1px rgba(226,220,220,0.2);
+	box-shadow: 0 0 30px rgba(0,0,0,1);
+	background: rgba(0,0,0,0.4);
+	text-align:center;
+}
+.articulos img{
+	width: 70%;
+	height: 20%;
+	margin: 1% 15% 0 21%;
+}
+
+.articulos article{
+	height: 29%;
+	border-top: solid 1px rgba(226,220,220,0.2);
+	border-bottom: solid 1px rgba(226,220,220,0.2);
+	box-shadow: 0 0 30px rgba(0,0,0,1);
+	background: rgba(0,0,0,0.4);
+	text-align: center;
+	margin: 0 0% 10% 0%;
+	overflow: hidden;
+}
+
+.articulos article img{
+	display: inline-block;
+	width: 50%;
+	height: 53%;
+
+	margin: 7% 15% 1 20%;
+}
+
+.articulos article span{
+	
+	color: white;
+	
+
+}
+.articulos article a span{
+	margin: -1% 4% 2% 0;
+	
+
+}
+
+.articulos article a span{
+	
+	float: right;
+	display: inline-block;
+	text-decoration: underline;
+	bottom: 0;
+	
+}
+.articulos article a span:hover{
+	text-decoration: none;
+}
+
+.contenedorgrande{
+	background: rgba(0,0,0,0.4);
+	margin: 0.5% 15% 0.5% 15%;
+	width: 70%;
+	box-shadow: 0 0 15px rgba(255,255,255,0.1);
+	border-bottom: solid 1px rgba(226,220,220,0.2);
+	border-top: solid 1px rgba(226,220,220,0.2);
+
+}
+
+.contenedorgrande article{
+
+	
+
+	margin: 2% 3% 2% 5.9%;
+	width: 88%;
+	border-bottom: solid 1px rgba(226,220,220,0.2);
+	border-top: solid 1px rgba(226,220,220,0.2);
+	border-radius: 2px;
+
+
+}
+.primerarticulo img{
+
+	width: 95%;
+	height: 260px;
+	margin: 2% 0 0 2.6%;
+	border-radius: 2px;
+
+}
+
+.primerarticulo .titulo{
+	display: block;
+	color: white;
+	font-size: 32px;
+	margin-left: 2.6%;
+
+}
+
+.primerarticulo .informacion{
+	color: white;
+	font-size: 20px;
+	margin-left:2.6%;
+}
+
+.menu nav ul li{
+
+	color: white;
+	cursor: pointer;
+	list-style: none;
+	background: rgba(0,0,0,0.4);
+	font-size: 120%;
+	padding: 5px 0 5px 8%;
+	transition:all 0.5s ease;
+
+    border-bottom: 1px solid rgba(255,255,255,0.2)
+	
+
+
+}
+
+.menu nav ul li:hover{
+
+	text-decoration: underline;
+	list-style: none;
+	background: rgb(25,25,25);
+	font-size: 120%;
+	padding: 5px 0 5px 8%;
+
+
+}
+
+
+
+.menu nav ul li img{
+	
+	width: 15%;
+	padding:0 4% 0 0;
+}
+
+.menu nav ul{
+	margin: 10% 0;
+	padding: 0;
+
+
+
+}
+
+.menu nav{
+
+	box-shadow: 0 0 30px rgba(0,0,0,1);
+	
+}
+
+.menu img{
+	height: 35%;
+	width: 100%;
+	margin-top: 3%;
+
+}
+
+
+.menu{
+	
+	box-shadow: 0 0 30px rgba(0,0,0,1);
+	position: fixed;
+	top: 0;
+	background: rgb(53,53,53);
+	height: 100%;
+	width: 15%;
+
+
+}
+.menu a{
+	list-style: none;
+	color: white;
+	text-decoration: none;
+}
+
+.redes img{
+	list-style: none;
+	padding: 2%;
+	margin-left: 8%;
+	width: 17%;
+	
+}
+
+
+.segundaseccion{
+margin: 2% 3% 2% 5.1%;
+
+}
+.segundaseccion article{
+	display: inline-block;
+	width: 30.3%;
+	margin: 1%;
+	vertical-align: top;
+}
+
+.segundaseccion article img{
+	margin: 2% 0 0 16%;
+	width: 70%;
+}
+
+.segundaseccion .titulo{
+	color: white;
+	font-size: 20px;
+	display: block;
+
+}
+
+.segundaseccion .informacion{
+	text-align: justify;
+	color: white;
+	font-size: 16px;
+	
+}
+
+.terceraseccion{
+margin: 2% 3% 2% 5.1%;
+
+}
+.terceraseccion article{
+	display: inline-block;
+	width: 40%;
+	margin: 1% 3% 1% 5%;
+	vertical-align: top;
+}
+
+.terceraseccion .titulo{
+	color: white;
+	font-size: 20px;
+	display: block;
+
+}
+
+.terceraseccion .informacion{
+	text-align: justify;
+	color: white;
+	font-size: 16px;
+	
+}
+
+.terceraseccion article img{
+	margin: 2% 0 0 0;
+	width: 100%;
+}
+
+.slider{
+
+	width: 45%;
+	position: relative;
+	padding-top: 22%; 
+	margin: 1% auto;
+	box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.75);
+}
+
+
+/*añadimos transiciones*/
+.slider>img{
+	position: absolute;
+	left: 0; top: 0;
+	transition: all 0.5s;
+}
+
+
+.slider input[name='slide_switch'] {
+	display: none;
+}
+
+.slider label {
+	/*añadimos espacio para las miniaturas*/
+
+	margin: 2% 2% 0 2.5%;
+	border: 3px solid #999;
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+	/*Bajandole la opacidad a las miniaturas*/
+	opacity: 0.6;
+}
+
+.slider label img{
+	display: block;
+}
+
+/*Efectos del clic*/
+.slider input[name='slide_switch']:checked+label {
+	border-color: #666;
+	opacity: 1;
+}
+/* Al hacer clic en cualquier miniatura ahora debería cambiar su opacidad (estilo) */ 
+/* Tiempo para trabajar en las principales imágenes */
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+/* Que esconde todas las imágenes principales en un tamaño 110% 
+Al hacer clic las imágenes se visualizan en tamaño normal para completar el efecto 
+*/
+.slider input[name='slide_switch']:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.horarios{
+	width: 70%;
+	margin: 0.5% 15%;
+	
+	background: red;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	box-shadow: 0 0 15px rgba(255,255,255,0.1);
+	border-bottom: solid 1px rgba(226,220,220,0.2);
+	border-top: solid 1px rgba(226,220,220,0.2);
+}
+
+.horarios td{
+	width: 6%;
+}
+
+.evento{
+	display: block;
+	font-size: 16px;
+}
+.equipo1,
+.equipo2,
+.marcador1,
+.marcador2{
+	font-size: 20px;
+}
+.marcador1,
+.marcador2{
+	float: right;
+	padding-right: 5px;
+}
+
+
+
+.primerparrafo{
+	margin:5% 0 0 2%;
+	display: block;
+	background: black;
+	text-align: center;
+	box-shadow: 0 0 30px rgba(0,0,0,1);
+
+
+	color: white;
+
+}
+
+.segundoparrafo{
+	margin:0;
+	display: block;
+	background: black;
+	text-align: center;
+	box-shadow: 0 0 30px rgba(0,0,0,1);
+
+	color: white;
+}
+
+
+.futbol{
+	background: black;
+	text-align: center;
+	box-shadow: 0 0 30px rgba(0,0,0,1);
+	color: white;
+	padding: 0.5% 0;
+	font-size: 20px;
+}
+.primerparrafofutbol{
+	
+	display: block;
+	
+
+}
+
+.segundoparrafofutbol{
+	display: block;
+	
+}
+
+
+
+
+/*MEDIA QUERIES*/
+
+/*desktop*/
+
+
+@media screen and (min-width: 1024px){
+
+
+	
+}
+
+/*tablet*/
+@media screen and (max-width: 1023px) and (min-width: 768px){
+	
+	body{
+		background: red;
+	}
+}
+
+/*movil*/
+@media screen and (max-width: 767px){
+	
+}
